@@ -44,7 +44,7 @@ with st.sidebar:
     # spot_size : int, size of the spot to sample, such as spot_size x spot_size
     # n_simulations : int, number of simulations to run
     # '''
-    image_size  = st.number_input('Select image size (size x size)',min_value=0, max_value=10000,value =5000)
+    image_size  = st.number_input('Select image size (size x size)',min_value=0, max_value=10000,value =1000)
 
     
     
