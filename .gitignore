@@ -1,0 +1,29 @@
+# --- Python Artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# --- Streamlit Secrets & Configuration ---
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# --- PhD / Data Science App Specifics ---
+# Hide your secret page entirely from GitHub
+pages/_PCA_Simulation.py
+
+# Hide data files, cache directories, or local outputs
+.ipynb_checkpoints/
+# *.csv
+*.xlsx
+*.pkl
+*.npy
+
+# --- OS / IDE Specifics ---
+.DS_Store
+.vscode/
+.idea/
